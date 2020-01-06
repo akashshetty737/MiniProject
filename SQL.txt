@@ -1,0 +1,8 @@
+create table ProfCollege
+( collegeId number(5) primary key,
+  collegeName varchar2(20) not null,
+  courseType varchar2(15),
+  city varchar(10),
+  fees number(9,2),
+  pincode number(6) 
+);
